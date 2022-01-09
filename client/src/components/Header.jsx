@@ -44,7 +44,7 @@ const Header = () => {
 				<ul className="navbar-nav ml-auto">
 					{!user ? (
 						<>
-							<li className="nav-item active">
+							<li className="nav-item">
 								<Link className="nav-link" to="/signup">
 									Sign Up
 								</Link>
